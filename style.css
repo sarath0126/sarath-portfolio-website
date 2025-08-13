@@ -297,3 +297,40 @@ body {
 .footer-content>ul>a>li>i{
     font-size: 2rem;
 }
+
+@media (max-width:480px){
+    .nav-content > ul{
+        flex-direction: column;
+        gap: 10px;
+        margin: 5px;
+}
+    .hero{
+        padding: 6rem;
+        padding-bottom: 1rem;
+    }
+    .hero-content>h1{
+        font-size: 2rem;
+    }
+    .hero-content>p{
+        font-size: 1rem;
+    }
+
+    .skill-content>ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .project-container{
+        height: 25rem;
+        padding: 1rem;
+        text-align: center;
+        margin-left: 25px;
+    }
+     .project-container ul {
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 0.9rem;
+    }
+
+
+}
