@@ -322,7 +322,7 @@ body {
 
 
     .project-container{
-        height: 25rem;
+        height: auto;
         padding: 1rem;
         text-align: center;
         margin-left: 25px;
